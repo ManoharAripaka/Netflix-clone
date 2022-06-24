@@ -1,0 +1,18 @@
+.watchlist{
+    padding: 60px 10px 10px 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.list img{
+    height: 200px; 
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 100ms ease-in-out;
+    border-radius: 3px;
+}
+.list img:hover{
+    transform: scale(1.1);
+}

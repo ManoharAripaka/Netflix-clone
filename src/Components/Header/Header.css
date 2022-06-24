@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    transition: background-color 0.3s ease-in-out;
+}
+.active{
+    background-color: rgb(0, 0, 0) ;
+}
+.header img{
+    width: 100px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.header_right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_right h3{
+    font-size: 14px;
+    transition-duration: 100ms;
+    cursor: pointer;
+}
+.header_right h3:hover{
+    color: red;
+}
+.account{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 32px;
+    padding: 0;
+}
+.account:hover{
+    background-color: white;
+    color: black;
+}
+.account .image{
+    padding: 4px;
+    border-radius: 30px;
+    background-color: grey;
+    color: black;
+}
+.account h3{
+    padding: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
